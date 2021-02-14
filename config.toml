@@ -21,7 +21,7 @@ enableInlineShortcodes = true
     author = "Joel B. Castillo"
     description = "Joel B. Castillo's Personal Website"
     keywords = "blog,developer,personal"
-    info = "Full Stack DevOPs"
+    info = "Full Stack Developer / DevOps Engineer"
     avatarURL = "images/avatar.jpg"
     footerContent = ""
 
