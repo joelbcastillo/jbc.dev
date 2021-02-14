@@ -89,6 +89,7 @@
         integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
     {{ end }}
 
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {{ hugo.Generator }}
   </head>
 
@@ -151,6 +152,17 @@
     {{ if and .Site.Params.googleTagManager .Site.Params.googleTagManager.id }}
       {{- partial "analytics/googletagmanager" . -}}
     {{ end }}
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 
 </html>

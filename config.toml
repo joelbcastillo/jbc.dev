@@ -18,10 +18,9 @@ disqusShortname = "yourdiscussshortname"
     author = "Joel B. Castillo"
     description = "Joel B. Castillo's Personal Website"
     keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
+    info = "Full Stack DevOPs"
     avatarURL = "images/avatar.jpg"
-    #gravatar = "john.doe@example.com"
-    footerContent = "Enter a text here."
+    footerContent = ""
 
     dateFormat = "January 2, 2006"
 
