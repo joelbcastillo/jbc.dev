@@ -97,25 +97,20 @@ disqusShortname = "yourdiscussshortname"
     weight = 1
     url = "https://github.com/joelbcastillo/"
 [[params.social]]
-    name = "Gitlab"
-    icon = "fa fa-gitlab"
-    weight = 2
-    url = "https://gitlab.com/joelbcastillo/"
-[[params.social]]
     name = "Twitter"
     icon = "fa fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/joelbcastillo/"
+[[params.social]]
+    name = "Keybase"
+    icon = "fa fa-keybase"
+    weight = 4
+    url = "https://keybase.io/joelbcastillo"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/joelbcastillo/"
-[[params.social]]
-    name = "Medium"
-    icon = "fa fa-medium"
-    weight = 5
-    url = "https://medium.com/@joelbcastillo"
 [[params.social]]
     name = "RSS"
     icon = "fa fa-rss"
