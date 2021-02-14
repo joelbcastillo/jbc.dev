@@ -6,146 +6,35 @@ public_folder: /img
 publish_mode: editorial_workflow
 i18n: 
   structure: multiple_files
-  locales: [es, en]
-  default_locale: es
+  locales: [en]
+  default_locale: em
 collections:
-  - name: 'home'
-    label: "Home"
-    folder: 'content/'
+  - label: "Post"
+    name: "post"
+    folder: "content/posts"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    i18n: true
+    slug: "{{slug}}"
     fields:
-      - label: 'Title'
-        name: 'title'
-        widget: 'string' 
-        i18n: true
-      - label: 'Author' 
-        name: 'author'
-        widget: 'string'
-        required: false
-      - label: 'Publish Date' 
-        name: 'date'
-        widget: 'datetime'
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        i18n: true
-      - label: 'Body' 
-        name: 'body'
-        widget: 'markdown' 
-        i18n: true 
-  - name: 'announcements'
-    label: "Announcements"
-    folder: 'content/announcements'
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Devotional"
+    name: "devotional"
+    folder: "content/devotionals"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    i18n: true
+    slug: "{{slug}}"
     fields:
-      - label: 'Title'
-        name: 'title'
-        widget: 'string' 
-        i18n: true
-      - label: 'Author' 
-        name: 'author'
-        widget: 'string'
-        required: false
-      - label: 'Publish Date' 
-        name: 'date'
-        widget: 'datetime'
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        i18n: true
-      - label: 'Body' 
-        name: 'body'
-        widget: 'markdown' 
-        i18n: true 
-  - name: 'childrens-church'
-    label: "Children's Church"
-    folder: 'content/childrens_church'
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Snippet"
+    name: "snippet"
+    folder: "content/snippets"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    i18n: true
+    slug: "{{slug}}"
     fields:
-      - label: 'Title' 
-        name: 'title'
-        widget: 'string' 
-        i18n: true
-      - label: 'Author' 
-        name: 'author'
-        widget: 'string'
-        required: false
-      - label: 'Publish Date' 
-        name: 'date'
-        widget: 'datetime'
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        i18n: true
-      - label: 'Body' 
-        name: 'body'
-        widget: 'markdown' 
-        i18n: true
-  - name: 'sunday-school-lessons'
-    label: "Sunday School Lessons"
-    folder: 'content/sunday_school_lessons'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    i18n: true
-    fields:
-      - label: 'Title' 
-        name: 'title'
-        widget: 'string' 
-        i18n: true
-      - label: 'Author' 
-        name: 'author'
-        widget: 'string'
-        required: false
-      - label: 'Publish Date' 
-        name: 'date'
-        widget: 'datetime'
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        i18n: true
-      - label: 'Body' 
-        name: 'body'
-        widget: 'markdown'  
-        i18n: true
-  - name: 'youth-group'
-    label: "Youth Group"
-    folder: 'content/youth'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    i18n: true
-    fields:
-      - label: 'Title' 
-        name: 'title'
-        widget: 'string' 
-        i18n: true
-      - label: 'Author' 
-        name: 'author'
-        widget: 'string'
-        required: false
-      - label: 'Publish Date' 
-        name: 'date'
-        widget: 'datetime'
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        i18n: true
-      - label: 'Body' 
-        name: 'body'
-        widget: 'markdown' 
-        i18n: true
+      - { label: "Title", name: "title", widget: "string" }
