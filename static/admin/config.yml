@@ -4,10 +4,6 @@ backend:
 media_folder: static/img
 public_folder: /img
 publish_mode: editorial_workflow
-i18n: 
-  structure: multiple_files
-  locales: [en]
-  default_locale: em
 collections:
   - label: "Post"
     name: "post"
