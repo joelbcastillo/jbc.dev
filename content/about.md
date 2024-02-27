@@ -1,24 +1,27 @@
-+++
-title = "About Me"
-slug = "about"
-+++
-
-I am a Full-Stack Software Engineer / Manager with experience in:
+---
+title: About Me
+slug: about
+---
+I am a Technical Lead with experience in:
 
 * Front-end Development
 * Backend Development 
+
   * Python - Flask and Django
   * Ruby - Rails
-* Infrastructure as Code / Configuration as Code
+* IAC
+
   * Terraform / Terragrunt
   * Ansible
   * AWS 
   * Azure
 * CI/CD
+
   * Azure DevOps
+  * Github Actions 
 
-I am the Director of Application Development at the NYC Department of Records where I've worked on building NYC OpenRecords, NYC Government Publications Portal, and have helped manage our OpenData program.
 
-Check back for updates!
 
-Thanks for reading!
+In previous roles I have been the Technical Lead of the DevOps team at Hyperfine, where I worked on building out a SOC2 / HITRUST compliant cloud environment and improving developer productivity. 
+
+I have also been the Director of Application Development at the NYC Department of Records where built NYC OpenRecords, NYC Government Publications Portal, and helped manage our OpenData program.
