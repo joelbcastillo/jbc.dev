@@ -19,10 +19,12 @@ enableInlineShortcodes = true
 
 [params]
     author = "Joel B. Castillo"
-    description = "Joel B. Castillo's Personal Website"
+    description = ""
     keywords = "blog,developer,personal"
-    info = "Full Stack Developer / DevOps Engineer"
+    info = "Tech Lead and DevSecOps Engineer"
     avatarURL = "images/avatar.jpg"
+    favicon_32 = "images/favicon.ico"
+    favicon_16 = "images/favicon.ico"
     footerContent = ""
 
     dateFormat = "January 2, 2006"
