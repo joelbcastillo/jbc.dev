@@ -1,4 +1,4 @@
-baseURL = "http://blog.jbc.dev"
+baseURL = "http://jbc.dev"
 title = "Joel B. Castillo"
 
 theme = "hugo-coder"
@@ -93,7 +93,7 @@ enableInlineShortcodes = true
 	  prefetchsrc = ["'self'"]
       defaultsrc = [
           "'self'",
-          "https://blog.jbc.dev/"
+          "https://jbc.dev/"
       ]
 
 [taxonomies]
