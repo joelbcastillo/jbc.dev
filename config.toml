@@ -126,10 +126,15 @@ enableInlineShortcodes = true
     name = "RSS"
     icon = "fa fa-rss"
     weight = 6
-    url = "https://blog.jbc.dev/index.xml"
+    url = "https://jbc.dev/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
-
+[[params.social]]
+    name = "Resume"
+    icon = "fa fa-file"
+    weight = 6
+    url = "https://jbc.dev/img/resume-joel-b-castillo.pdf"
+    type = "application/pdf"
 
 [languages]
     [languages.en]
