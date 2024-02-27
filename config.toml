@@ -131,7 +131,7 @@ enableInlineShortcodes = true
     type = "application/rss+xml"
 [[params.social]]
     name = "Resume"
-    icon = "fa fa-file"
+    icon = "fa fa-file-o"
     weight = 6
     url = "https://jbc.dev/img/resume-joel-b-castillo.pdf"
     type = "application/pdf"
