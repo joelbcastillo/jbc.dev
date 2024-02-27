@@ -24,4 +24,4 @@ In previous roles I have been the Technical Lead of the DevOps team at Hyperfine
 
 I have also been the Director of Application Development at the NYC Department of Records where built NYC OpenRecords, NYC Government Publications Portal, and helped manage our OpenData program.
 
-Here is my CV: [Joel B Castillo](https://jbc.dev/static/img/resume-joel-b-castillo-sre-devsecops-no-contact.pdf)
+Here is my CV: [Joel B Castillo](https://jbc.dev/img/resume-joel-b-castillo-sre-devsecops-no-contact.pdf)
