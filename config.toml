@@ -23,8 +23,8 @@ enableInlineShortcodes = true
     keywords = "blog,developer,personal"
     info = "Tech Lead and DevSecOps Engineer"
     avatarURL = "images/avatar.jpg"
-    favicon_32 = "images/favicon.ico"
-    favicon_16 = "images/favicon.ico"
+    # favicon_32 = "images/favicon.ico"
+    # favicon_16 = "images/favicon.ico"
     footerContent = ""
 
     dateFormat = "January 2, 2006"
@@ -44,7 +44,7 @@ enableInlineShortcodes = true
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
-    colorScheme = "dark"
+    colorScheme = "auto"
 
     # Hide the toggle button, along with the associated vertical divider
     hideColorSchemeToggle = false
